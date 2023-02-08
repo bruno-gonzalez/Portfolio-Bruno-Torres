@@ -1,0 +1,21 @@
+.projetos__container {
+   padding: 1em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: column;
+}
+
+.titulo__projetos {
+   font-size: 2em;
+   padding: .5em 0;
+   border-bottom: 2px solid #303030;
+   color: #303030;
+}
+
+.projetos {
+   margin: 2em 0;
+   width: 90%;
+   padding: 1em;
+}
+

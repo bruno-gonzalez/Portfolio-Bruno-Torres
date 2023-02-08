@@ -1,0 +1,38 @@
+[
+   {
+      "id": 1,
+      "imagem": "https://i.imgur.com/VAtlDPW.jpeg",
+      "nome": "Aluroni",
+      "repositório": "https://github.com/bruno-gonzalez/aluroni-performance-aula2.1"
+   },
+   {
+      "id": 2,
+      "imagem": "https://i.imgur.com/1Dvfmm9.png",
+      "nome": "Organo",
+      "repositório": "https://github.com/bruno-gonzalez/organo-ts" 
+   },
+   {
+      "id": 3,
+      "imagem": "https://i.imgur.com/sCfnmp3.png",
+      "nome": "CineTag",
+      "repositório": "https://github.com/bruno-gonzalez/cinetag"
+   },
+   {
+      "id": 4,
+      "imagem": "https://i.imgur.com/t19F3Y0.png",
+      "nome": "Gym Exercícios",
+      "repositório": "https://github.com/bruno-gonzalez/gym-exercicios"
+   },
+   {
+      "id": 5,
+      "imagem": "https://i.imgur.com/qySImJ0.png",
+      "nome": "Self Care",
+      "repositório": "https://github.com/bruno-gonzalez/self-care"
+   },
+   {
+      "id": 6,
+      "imagem": "https://i.imgur.com/UhznABi.png",
+      "nome": "Alura Books",
+      "repositório": "https://github.com/bruno-gonzalez/AluraBook"
+   }
+]

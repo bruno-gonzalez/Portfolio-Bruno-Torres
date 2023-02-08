@@ -1,0 +1,27 @@
+[
+         {
+            "id": 1,
+            "tecnologia": "JavaScript",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+         },
+         {
+            "id": 2,
+            "tecnologia": "React JS",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+         }, 
+         {
+            "id": 3,
+            "tecnologia": "TypeScript",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+         },
+         {
+            "id": 4,
+            "tecnologia": "HTML5",
+            "imagem": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"
+         },
+         {
+            "id": 5,
+            "tecnologia": "CSS3",
+            "imagem": "https://logospng.org/download/css-3/logo-css-3-2048.png"
+         }
+]

@@ -1,0 +1,54 @@
+.cabecalho__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 2em;
+}
+
+.fixed{
+   position:fixed;
+   right: 0%;
+   top: 0%;
+   width: 100vw;
+   background-color: #f5f5f5;
+   z-index: 1;
+}
+
+.lista__nav, 
+.lista__redes {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 1em;
+}
+
+.lista__nav__item{
+   padding: 0 1em;
+}
+
+.lista__nav li, 
+.lista__redes li {
+   padding: 1em;
+}
+
+.lista__redes a {
+   color: black;
+}
+
+.lista__redes a:hover, 
+.lista__nav li:hover{
+   transition: .3s;
+   opacity: .6;
+}
+
+
+@media screen and (max-width: 600px) {
+   .lista__redes{
+      display: none;
+   }
+
+   .cabecalho__container {
+      justify-content: center;
+   }
+
+}

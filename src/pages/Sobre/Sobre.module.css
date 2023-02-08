@@ -1,0 +1,87 @@
+@keyframes anima {
+   0%{
+      border-radius: 200px 20px 200px 20px;
+   }
+   50%{
+      border-radius: 20px 200px 20px 200px;
+   }
+   100%{
+      border-radius: 200px 20px 200px 20px;
+   }
+}
+
+.sobre__container, .sobre {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+}
+
+.sobre__container{
+   margin-top:5em ;
+   height: 65vh;
+}
+
+.sobre__title {
+   font-size: 2em;
+   border-bottom:2px solid #303030;
+   padding: .5em;
+}
+
+.sobre{
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.foto {
+   width: 300px;
+   border-radius: 9999px;
+   box-shadow: 6px 6px 8px #7272729a;
+}
+
+.container__text{
+   width: 50%;
+   margin: 1em;
+   background: #7272729a;
+   padding: 1em;
+   animation: anima 5s infinite 100ms normal both;
+   text-align: center;
+}
+
+.text{
+   line-height: 1.5em;
+   font-size: 1.1em;
+   color: #fff;
+   width: 100%;
+   padding: 3em 3.5em;
+   background: #303030;
+   animation: anima 5s infinite 100ms normal both;
+}
+
+@media screen and (max-width: 1200px) {
+   .sobre {
+      margin: 1em;
+      flex-flow: column;
+      justify-content: center;
+   }
+
+   .foto{
+      width: 200px;
+   }
+
+   .container__text{
+      width: 90vw;
+      margin: 1em 0;
+   }
+
+   .text {
+      padding: 4em;
+      width: auto;
+      font-size: 14px;
+   }
+
+   .sobre__container {
+      height: auto;
+   }
+}
